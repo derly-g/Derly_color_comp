@@ -1,1 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
 
+header {
+    background-color: #000000; 
+    color: #FFEB00; 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+
+.lineup-section {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+    
+    background: linear-gradient(
+        45deg, 
+        rgba(239, 26, 45, 0.8), 
+        rgba(26, 26, 26, 0.8)   
+    ), 
+    url('https://images.ps-aws.com/c?url=https%3A%2F%2Fd3cm515ijfiu6w.cloudfront.net%2Fwp-content%2Fuploads%2F2025%2F02%2F01142453%2Flewis-hamilton-charles-leclerc-ferrari-f1-2025-1320x742.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.content-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+
+.legacy-section {
+    background-color: #EF1A2D; 
+    color: #FFFFFF;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.legacy-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #1A1A1A;
+}
+
+.legacy-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #FFEB00;
+    color: #1A1A1A;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+.cta-button:hover, .cta-button:focus {
+    background-color: #FFFFFF;
+    color: #EF1A2D;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #000000;
+    color: #888888;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.85rem;
+    border-top: 1px solid #333;
+}
