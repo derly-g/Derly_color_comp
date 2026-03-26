@@ -1,0 +1,1 @@
+# Derly_color_comp
